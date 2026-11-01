@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainab | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <p>Welcome to my website!</p>
+    </header>
+
+    <main>
+
+        <section id="profile">
+            <h2>Welcome to My Portfolio</h2>
+
+            <h3 id="headline">Hello, I'm Zainab!</h3>
+
+            <p class="intro">
+                I am a Computer Science student at Astana IT University.
+                I enjoy learning programming, exploring new technologies,
+                and improving my skills.
+            </p>
+
+            <button id="changeGreeting">Change Greeting</button>
+            <button id="darkTheme">Dark Mode</button>
+            <button id="lightTheme">Light Mode</button>
+        </section>
+        
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        My name is Zainab. I am studying Computer Science
+        and I am interested in web development and technology.
+        I enjoy learning new things and improving my programming skills.
+    </p>
+
+    <div id="myDetails">
+        <p id="status">Currently learning jQuery!</p>
+
+        <h3>Fun Facts About Me</h3>
+
+        <ul>
+            <li>I enjoy learning new programming languages.</li>
+            <li>I like exploring new technologies.</li>
+            <li>My goal is to become a skilled software developer.</li>
+        </ul>
+    </div>
+
+    <button id="hideBtn">Hide</button>
+    <button id="showBtn">Show</button>
+    <button id="toggleBtn">Toggle</button>
+</section>
+
+<section id="gallery">
+    <h2>My Gallery</h2>
+
+    <div class="gallery-images">
+        <img id="photo1" src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=500" alt="Books and studying">
+
+        <img id="photo2" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500" alt="Working with technology">
+    </div>
+
+    <button id="fadeInBtn">Fade In</button>
+    <button id="fadeOutBtn">Fade Out</button>
+    <button id="fadeToggleBtn">Fade Toggle</button>
+</section>
+
+<section id="favorites">
+    <h2>My Favorite Things</h2>
+
+    <div class="favorite-item">
+        <h3 class="slide-heading">My Favorite Music</h3>
+        <div class="slide-content">
+            <p>I enjoy listening to music because it helps me relax and stay motivated.</p>
+        </div>
+    </div>
+
+    <div class="favorite-item">
+        <h3 class="slide-heading">My Favorite Movie</h3>
+        <div class="slide-content">
+            <p>I enjoy movies that have interesting stories and teach meaningful lessons.</p>
+        </div>
+    </div>
+
+    <div class="favorite-item">
+        <h3 class="slide-heading">My Favorite Subject</h3>
+        <div class="slide-content">
+            <p>Computer Science is my favorite subject because I enjoy programming and solving problems.</p>
+        </div>
+    </div>
+    <button id="hideAll">Hide All</button>
+    <button id="showAll">Show All</button>
+</section>
+
+<section id="skills">
+    <h2>My Technical Skills</h2>
+
+    <ul id="skillList">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+    </ul>
+
+    <input type="text" id="skillInput" placeholder="Enter a new skill">
+
+    <div class="skill-buttons">
+        <button id="addSkill">Add Skill</button>
+        <button id="prependSkill">Prepend Skill</button>
+        <button id="removeSkill">Remove Skill</button>
+    </div>
+</section>
+<section id="social">
+    <h2>Connect With Me</h2>
+
+    <a id="socialLink" href="https://github.com/" target="_blank">
+        Visit GitHub
+    </a>
+
+    <br>
+
+    <button id="changeLink">Change Link</button>
+</section>
+<section id="contact">
+    <h2>Contact Information</h2>
+
+    <label for="contactName">Your Name:</label>
+    <input type="text" id="contactName" placeholder="Enter your name">
+
+    <label for="contactEmail">Your Email:</label>
+    <input type="email" id="contactEmail" placeholder="Enter your email">
+
+    <h3>Live Preview</h3>
+    <p>Name: <span id="previewName">Not set</span></p>
+    <p>Email: <span id="previewEmail">Not set</span></p>
+</section>
+<section id="skillBars">
+    <h2>My Skill Levels</h2>
+
+    <p>HTML — 85%</p>
+    <div class="skill-track">
+        <div class="skill-progress" id="htmlBar"></div>
+    </div>
+
+    <p>CSS — 75%</p>
+    <div class="skill-track">
+        <div class="skill-progress" id="cssBar"></div>
+    </div>
+
+    <p>JavaScript — 60%</p>
+    <div class="skill-track">
+        <div class="skill-progress" id="jsBar"></div>
+    </div>
+
+    <button id="animateSkills">Show My Skills</button>
+</section>
+
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
